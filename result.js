@@ -35,13 +35,13 @@ var reswrong = localStorage.getItem("rInCorrect");
 var resNot = localStorage.getItem("rNotAns");
 
 if(resCor <= 3){
-    $("img").attr("src","images/hermione_sad.gif");
+    $("img").attr("src","hermione_sad.gif");
 }
 else if(resCor > 3 && resCor <=6){
-    $("img").attr("src","images/ron_smile.gif");
+    $("img").attr("src","ron_smile.gif");
 }
 else{
-    $("img").attr("src","images/harry_laugh.gif");
+    $("img").attr("src","harry_laugh.gif");
 }
 
 $("#crt").text(resCor);
