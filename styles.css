@@ -1,6 +1,6 @@
 body:after{
     content: "";
-    background: url("images/bg.jpg");
+    background: url("bg.jpg");
     top: 0;
     right: 0;
     bottom: 0;
